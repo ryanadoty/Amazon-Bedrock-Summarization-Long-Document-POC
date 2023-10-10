@@ -12,7 +12,7 @@ load_dotenv()
 # configure Bedrock client
 boto3.setup_default_session(profile_name=os.getenv("profile_name"))
 config = botocore.config.Config(connect_timeout=120, read_timeout=120)
-bedrock = boto3.client('bedrock-runtime', 'us-east-1', endpoint_url='https://bedrock.us-east-1.amazonaws.com',
+bedrock = boto3.client('bedrock-runtime', 'us-east-1', endpoint_url='https://bedrock-runtime.us-east-1.amazonaws.com',
                        config=config)
 
 def summarizer(prompt_data) -> str:
