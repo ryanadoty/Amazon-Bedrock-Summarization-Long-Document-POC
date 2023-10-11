@@ -20,8 +20,7 @@ When a user interacts with the GenAI app, the flow is as follows:
 
 ## Prerequisites:
 1. Amazon Bedrock Access and CLI Credentials.
-2. If you are going to perform a git clone of this repo, and its your first time cloning from the AWS Gitlab, please ensure your machine is configured properly by following [these directions](https://w.amazon.com/bin/view/Users/vithoesl/GettingStartedWithGitlab/).
-3. Ensure Python 3.9 installed on your machine, it is the most stable version of Python for the packages we will be using, it can be downloaded [here](https://www.python.org/downloads/release/python-3911/).
+2. Ensure Python 3.9 installed on your machine, it is the most stable version of Python for the packages we will be using, it can be downloaded [here](https://www.python.org/downloads/release/python-3911/).
 
 ## Step 1:
 The first step of utilizing this repo is performing a git clone of the repository.
