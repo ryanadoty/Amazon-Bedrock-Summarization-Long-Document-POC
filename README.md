@@ -66,7 +66,7 @@ Please ensure that your AWS CLI Profile has access to Amazon Bedrock, and your A
 Depending on the region and model that you are planning to use Amazon Bedrock in, you may need to reconfigure line 15 & 33 in the doc_summarizer.py file:
 
 ```
-bedrock = boto3.client('bedrock-runtime', 'us-east-1', endpoint_url='https://bedrock.us-east-1.amazonaws.com')
+bedrock = boto3.client('bedrock-runtime', 'us-east-1', endpoint_url='https://bedrock-runtime.us-east-1.amazonaws.com')
 
 modelId = 'anthropic.claude-v2'
 ```
