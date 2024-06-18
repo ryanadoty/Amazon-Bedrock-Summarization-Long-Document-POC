@@ -79,7 +79,7 @@ typing_extensions==4.8.0
 typing-inspect==0.9.0
 tzdata==2023.3
 tzlocal==5.0.1
-urllib3==1.26.18
+urllib3==1.26.19
 validators==0.22.0
 wheel==0.38.4
 yarl==1.9.2
